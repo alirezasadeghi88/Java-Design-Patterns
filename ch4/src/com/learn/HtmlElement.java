@@ -22,5 +22,9 @@ public class HtmlElement extends HtmlTag{
         this.startTag=tag;
     }
 
+    @Override
+    public void setEndTag(String tag){
+        this.endTag=tag;
+    }
 
 }
