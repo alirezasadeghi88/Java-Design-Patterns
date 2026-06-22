@@ -1,4 +1,6 @@
 package com.learn;
 
-public class HtmlTag {
+public abstract class HtmlTag {
+    public abstract String getTagName();
+
 }
