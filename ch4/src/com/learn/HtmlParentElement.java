@@ -15,6 +15,10 @@ public class HtmlParentElement extends HtmlTag{
         this.childrenTag = childrenTag;
     }
 
+    public HtmlParentElement(String tagName) {
+        super();
+    }
+
     @Override
     public String getTagName(){
         return tagName;
