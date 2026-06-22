@@ -32,4 +32,8 @@ public class HtmlElement extends HtmlTag{
         this.tagBody=tagBody;
     }
 
+    @Override
+    public void generateHtml(){
+        System.out.println(startTag+""+tagBody+""+endTag);
+    }
 }
