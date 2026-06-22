@@ -17,4 +17,10 @@ public class HtmlElement extends HtmlTag{
         return tagName;
     }
 
+    @Override
+    public void setStartTag(String tag){
+        this.startTag=tag;
+    }
+
+
 }
