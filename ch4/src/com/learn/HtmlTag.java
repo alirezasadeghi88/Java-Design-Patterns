@@ -1,5 +1,7 @@
 package com.learn;
 
+import java.util.List;
+
 public abstract class HtmlTag {
     public abstract String getTagName();
     public abstract void setStartTag(String tag);
@@ -14,6 +16,10 @@ public abstract class HtmlTag {
     }
 
     public void removeChildTag(HtmlTag htmlTag) {
+        throw new UnsupportedOperationException("Current operation is not support for this object");
+    }
+
+    public List<HtmlTag> getChildren() {
         throw new UnsupportedOperationException("Current operation is not support for this object");
     }
 }
