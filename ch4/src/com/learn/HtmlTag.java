@@ -22,4 +22,6 @@ public abstract class HtmlTag {
     public List<HtmlTag> getChildren() {
         throw new UnsupportedOperationException("Current operation is not support for this object");
     }
+
+    public abstract void generateHtml();
 }
