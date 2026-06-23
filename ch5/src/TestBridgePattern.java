@@ -10,6 +10,11 @@ public class TestBridgePattern {
 
         System.out.println();
 
-        car = new BigWheel(product1, "BigWheelxzmodel")
+        car = new BigWheel(product1, "BigWheelxzmodel");
+        car.produceProduct();
+        car.assemble();
+        car.printDetails();
+
+
     }
 }
