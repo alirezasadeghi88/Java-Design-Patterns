@@ -1,2 +1,10 @@
 public class Motoren extends Car{
+    private final Product product;
+    private final String carType;
+
+    public Motoren(Product product, String carType) {
+        super(product,carType);
+        this.product = product;
+        this.carType = carType;
+    }
 }
