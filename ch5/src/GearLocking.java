@@ -10,4 +10,9 @@ public class GearLocking implements Product{
     public String productName() {
         return productName;
     }
+
+    @Override
+    public void produce() {
+        System.out.println("ProducingGearLockingSystem");
+    }
 }
