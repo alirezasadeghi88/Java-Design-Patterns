@@ -4,4 +4,9 @@ public class CentralLocking implements Product{
     public CentralLocking(String productName) {
         this.productName = productName;
     }
+
+    @Override
+    public String productName() {
+        return productName;
+    }
 }
