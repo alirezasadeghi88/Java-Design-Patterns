@@ -7,5 +7,9 @@ public class TestBridgePattern {
         car.produceProduct();
         car.assemble();
         car.printDetails();
+
+        System.out.println();
+
+
     }
 }
