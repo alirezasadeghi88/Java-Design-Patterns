@@ -6,4 +6,6 @@ public abstract class Car {
         this.product = product;
         this.carType = carType;
     }
+
+    public abstract void assemble();
 }
