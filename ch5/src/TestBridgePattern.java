@@ -23,5 +23,8 @@ public class TestBridgePattern {
         System.out.println();
 
         car = new Motoren(product1, "Motoren lm model");
+        car.produceProduct();
+        car.assemble();
+        car.printDetails();
     }
 }
