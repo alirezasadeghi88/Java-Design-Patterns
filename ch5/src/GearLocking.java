@@ -4,4 +4,10 @@ public class GearLocking implements Product{
     public GearLocking(String productName) {
         this.productName = productName;
     }
+
+
+    @Override
+    public String productName() {
+        return productName;
+    }
 }
