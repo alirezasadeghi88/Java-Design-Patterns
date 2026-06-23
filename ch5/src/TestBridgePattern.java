@@ -15,6 +15,6 @@ public class TestBridgePattern {
         car.assemble();
         car.printDetails();
 
-
+        car = new Motoren(product, "Motorenlmmodel");
     }
 }
