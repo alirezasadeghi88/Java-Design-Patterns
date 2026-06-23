@@ -7,4 +7,11 @@ public class Motoren extends Car{
         this.product = product;
         this.carType = carType;
     }
+
+    @Override
+    public void assemble() {
+        System.out.println("Assembling"+product.productName()+"for"+carType);
+    }
+
+
 }
