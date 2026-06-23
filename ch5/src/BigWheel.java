@@ -3,6 +3,7 @@ public class BigWheel extends Car{
     private final String carType;
 
     public BigWheel(Product product, String carType) {
+        super(product,carType);
         this.product = product;
         this.carType = carType;
     }
