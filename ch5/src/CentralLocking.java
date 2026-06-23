@@ -9,4 +9,9 @@ public class CentralLocking implements Product{
     public String productName() {
         return productName;
     }
+
+    @Override
+    public void produce() {
+        System.out.println("ProducingCentralLockingSystem");
+    }
 }
