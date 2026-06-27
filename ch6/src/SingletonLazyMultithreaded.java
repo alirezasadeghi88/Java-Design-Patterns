@@ -3,4 +3,12 @@ public class SingletonLazyMultithreaded {
     private SingletonLazyMultithreaded(){
 
     }
+
+    public static synchronized SingletonLazyMultithreaded getInstance(){
+        SingletonLazyMultithreaded sc = null;
+        if(SingletonEager.sc==null){
+            sc=new SingletonLazyMultithreaded();
+        }
+        return sc;
+    }
 }
