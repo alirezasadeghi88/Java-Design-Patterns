@@ -3,4 +3,8 @@ public class SingletonEager {
     private SingletonEager(){
 
     }
+
+    public static SingletonEager getInstance(){
+        return sc;
+    }
 }
