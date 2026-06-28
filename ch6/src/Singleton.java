@@ -18,4 +18,7 @@ public class Singleton implements Serializable {
     private Object writeReplace()throws ObjectStreamException{
         return sc;
     }
+    public Object clone()throws CloneNotSupportedException{
+        throw new CloneNotSupportedException("Singleton,cannotbeclonned");
+    }
 }
