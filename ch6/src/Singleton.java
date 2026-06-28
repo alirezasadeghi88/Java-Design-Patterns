@@ -15,4 +15,7 @@ public class Singleton implements Serializable {
     private Object readResolve() throws ObjectStreamException {
         return sc;
     }
+    private Object writeReplace()throws ObjectStreamException{
+        return sc;
+    }
 }
