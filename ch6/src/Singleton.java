@@ -21,4 +21,11 @@ public class Singleton implements Serializable {
     public Object clone()throws CloneNotSupportedException{
         throw new CloneNotSupportedException("Singleton,cannotbeclonned");
     }
+    private static Class getClass(String classname)throws ClassNotFoundException{
+        Class LoaderclassLoader= Thread.currentThread().getContextClassLoader().getClass();
+        ClassLoader classLoader = null;
+        if(classLoader==null)
+            classLoader=Singleton.class.getClassLoader();
+        return(classLoader.loadClass(classname));
+    }
 }
