@@ -7,6 +7,9 @@ public class Singleton implements Serializable {
         if(sc!=null){
             throw new IllegalStateException("Alreadycreated.");
         }
-
     }
+    public static Singleton getInstance(){
+        return sc;
+    }
+
 }
