@@ -3,4 +3,15 @@ public class SingletonLazyDoubleCheck {
     private SingletonLazyDoubleCheck(){
 
     }
+
+    public static SingletonLazyDoubleCheck getInstance(){
+        if(sc==null){
+            synchronized(SingletonLazyDoubleCheck.class){
+                if(sc==null){
+                    sc=new SingletonLazyDoubleCheck();
+                }
+            }
+        }
+        return sc;
+    }
 }
