@@ -1,3 +1,4 @@
+import java.io.ObjectStreamException;
 import java.io.Serializable;
 
 public class Singleton implements Serializable {
@@ -11,5 +12,7 @@ public class Singleton implements Serializable {
     public static Singleton getInstance(){
         return sc;
     }
-
+    private Object readResolve() throws ObjectStreamException {
+        return sc;
+    }
 }
