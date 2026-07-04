@@ -1,3 +1,5 @@
+package interfaces;
+
 import java.util.Observer;
 
 public interface Subject {
