@@ -25,5 +25,10 @@ public class TestObserver {
         observer2.unSubscribe();
 
         System.out.println();
+
+        cObject.setDesc("It’sagoal!!");
+        cObject.setDesc("Currentscore1-0");
+
+        System.out.println();
     }
 }
