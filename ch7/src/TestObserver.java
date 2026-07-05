@@ -19,5 +19,11 @@ public class TestObserver {
         Commentary cObject= ((Commentary)subject);
         cObject.setDesc("WelcometoliveSoccermatch");
         cObject.setDesc("Currentscore0-0");
+
+        System.out.println();
+
+        observer2.unSubscribe();
+
+        System.out.println();
     }
 }
