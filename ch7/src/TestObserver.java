@@ -35,5 +35,8 @@ public class TestObserver {
         observer3.subscribe();
 
         System.out.println();
+
+        cObject.setDesc("It’sanothergoal!!");
+        cObject.setDesc("Half-timescore2-0");
     }
 }
