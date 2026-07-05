@@ -1,3 +1,4 @@
+import interfaces.Commentary;
 import interfaces.Observer;
 import interfaces.Subject;
 
@@ -14,5 +15,9 @@ public class TestObserver {
 
         Observer observer2= new SMSUser(subject,"TimRonney[London]");
         observer2.subscribe();
+
+        Commentary cObject= ((Commentary)subject);
+        cObject.setDesc("WelcometoliveSoccermatch");
+        cObject.setDesc("Currentscore0-0");
     }
 }
