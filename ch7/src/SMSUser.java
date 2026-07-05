@@ -6,6 +6,9 @@ public class SMSUser implements Observer {
     private String desc;
     private String userInfo;
 
+    public SMSUser(Subject subject, String s) {
+    }
+
     public void SMSUsers(Subject subject, String userInfo){
         if(subject==null){
             throw new IllegalArgumentException("NoPublisherfound.");
