@@ -30,5 +30,10 @@ public class TestObserver {
         cObject.setDesc("Currentscore1-0");
 
         System.out.println();
+
+        Observer observer3= new SMSUser(subject,"Marrie[Paris]");
+        observer3.subscribe();
+
+        System.out.println();
     }
 }
