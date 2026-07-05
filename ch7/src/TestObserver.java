@@ -9,5 +9,10 @@ public class TestObserver {
                 "Soccer Match[2014AUG24]");
         Observer observer=new SMSUser(subject, "AdamWarner[NewYork]");
         observer.subscribe();
+
+        System.out.println();
+
+        Observer observer2= new SMSUser(subject,"TimRonney[London]");
+        observer2.subscribe();
     }
 }
