@@ -8,5 +8,6 @@ public class TestObserver {
         Subject subject=new CommentaryObject(new ArrayList<Observer>(),
                 "Soccer Match[2014AUG24]");
         Observer observer=new SMSUser(subject, "AdamWarner[NewYork]");
+        observer.subscribe();
     }
 }
