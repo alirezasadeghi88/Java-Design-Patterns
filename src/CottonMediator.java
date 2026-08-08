@@ -18,5 +18,38 @@ public class CottonMediator implements MachineMediator {
         this.valve = valve;
     }
 
+    @Override
+    public void start() {
+        machine.start();
+    }
 
+    @Override
+    public void wash() {
+
+    }
+
+    @Override
+    public void open() {
+
+    }
+
+    @Override
+    public void closed() {
+
+    }
+
+    @Override
+    public void on() {
+
+    }
+
+    @Override
+    public void off() {
+
+    }
+
+    @Override
+    public boolean checkTemperature(int temp) {
+        return false;
+    }
 }
