@@ -25,7 +25,11 @@ public class CottonMediator implements MachineMediator {
 
     @Override
     public void wash() {
-
+        motor.startMotor();
+        motor.rotateDrum(700);
+        System.out.println("Adding detergent");
+        soilRemoval.low();
+        System.out.println("Adding softener");
     }
 
     @Override
