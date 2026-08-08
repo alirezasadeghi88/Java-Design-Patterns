@@ -54,6 +54,6 @@ public class CottonMediator implements MachineMediator {
 
     @Override
     public boolean checkTemperature(int temp) {
-        return false;
+        return sensor.checkTemperature(temp);
     }
 }
