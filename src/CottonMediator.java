@@ -34,7 +34,7 @@ public class CottonMediator implements MachineMediator {
 
     @Override
     public void open() {
-
+        valve.open();
     }
 
     @Override
