@@ -49,7 +49,7 @@ public class CottonMediator implements MachineMediator {
 
     @Override
     public void off() {
-
+        heater.off();
     }
 
     @Override
