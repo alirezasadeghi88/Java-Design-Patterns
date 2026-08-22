@@ -20,4 +20,8 @@ public class Company {
     public String getCompanyAddress(){
         return companyAddress;
     }
+
+    public String getCompanyContactNo(){
+        return companyContactNo;
+    }
 }
