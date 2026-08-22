@@ -3,4 +3,13 @@ public class Company {
     private String companyAddress;
     private String companyContactNo;
     private ContactList contactList;
+
+    public Company(String companyName,String companyAddress,String companyContactNo,
+                  ContactList contactList){
+        this.companyName=companyName;
+        this.companyAddress=companyAddress;
+        this.companyContactNo=companyContactNo;
+        this.contactList=contactList;
+        System.out.println("Company object created...");
+    }
 }
