@@ -24,4 +24,8 @@ public class Company {
     public String getCompanyContactNo(){
         return companyContactNo;
     }
+
+    public ContactList getContactList(){
+        return contactList;
+    }
 }
