@@ -16,4 +16,8 @@ public class Company {
     public String getCompanyName() {
         return companyName;
     }
+
+    public String getCompanyAddress(){
+        return companyAddress;
+    }
 }
