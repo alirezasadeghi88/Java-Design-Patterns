@@ -12,4 +12,8 @@ public class Company {
         this.contactList=contactList;
         System.out.println("Company object created...");
     }
+
+    public String getCompanyName() {
+        return companyName;
+    }
 }
