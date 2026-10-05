@@ -2,7 +2,7 @@ public class VideoFileHandler implements Handler{
     private Handler handler;
     private String handlerName;
 
-    public ImageFileHandler(String handlerName){
+    public VideoFileHandler(String handlerName){
         this.handlerName=handlerName;
     }
 
