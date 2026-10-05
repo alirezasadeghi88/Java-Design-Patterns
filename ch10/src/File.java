@@ -8,4 +8,16 @@ public class File {
         this.fileType = fileType;
         this.filePath = filePath;
     }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
 }
