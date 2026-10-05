@@ -5,4 +5,28 @@ public class AudioFileHandler implements Handler {
     public AudioFileHandler(String handlerName){
         this.handlerName=handlerName;
     }
+
+    @Override
+    public void setHandler(Handler handler) {
+        this.handler=handler;
+    }
+
+    @Override
+    public void process(File file) {
+        if(file.getFileType().equals("audio")){
+            System.out.println("Process and saving audio file...by"+
+                    handlerName);
+        }else if(handler!=null){
+            System.out.println(handlerName+"fowards request to"+handler.
+                    getHandlerName());
+            handler.process(file);
+        }else{
+            System.out.println("File nots upported");
+        }
+    }
+
+    @Override
+    public String getHandlerName() {
+        return handlerName;
+    }
 }
