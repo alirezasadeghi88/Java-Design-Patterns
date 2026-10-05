@@ -32,5 +32,10 @@ public class AudioFileHandler implements Handler {
 }
 
 public class ExcelFileHandler implements Handler{
+    private Handler handler;
+    private String handlerName;
 
+    public ExcelFileHandler(String handlerName){
+        this.handlerName=handlerName;
+    }
 }
