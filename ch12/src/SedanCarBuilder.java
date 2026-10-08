@@ -13,7 +13,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildEngine() {
-
+        car.setEngine("3.5LDuramaxV6DOHC");
     }
 
     @Override
