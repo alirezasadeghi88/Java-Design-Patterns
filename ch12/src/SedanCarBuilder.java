@@ -28,7 +28,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildWindows() {
-
+        car.setWindows("Laminatedsidewindows.Fixedrearwindowwithdefroster");
     }
 
     @Override
