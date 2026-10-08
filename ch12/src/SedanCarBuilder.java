@@ -38,6 +38,6 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public Car getCar() {
-        return null;
+        return car;
     }
 }
