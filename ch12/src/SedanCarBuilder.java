@@ -33,7 +33,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildFuelType() {
-
+        car.setFuelType("Gasoline19MPGcity,29MPGhighway,23MPGcombinedand 437mi.range");
     }
 
     @Override
