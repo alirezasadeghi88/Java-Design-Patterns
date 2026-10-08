@@ -23,7 +23,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildSeats() {
-
+        car.setSeats("Frontseatcenterarmrest.Rearseatcenterarmrest.Split- foldingrearseats");
     }
 
     @Override
