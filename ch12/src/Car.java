@@ -8,6 +8,9 @@ public class Car {
     private String fuelType;
     private String carType;
 
+    public Car(String sedan) {
+    }
+
     public String getBodyStyle() {
         return bodyStyle;
     }
