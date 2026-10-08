@@ -5,4 +5,5 @@ public interface CarBuilder {
     public void buildBreaks();
     public void buildSeats();
     public void buildWindows();
+    public void buildFuelType();
 }
