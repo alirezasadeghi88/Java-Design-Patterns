@@ -31,7 +31,7 @@ public class SportsCarBuilder implements CarBuilder {
 
     @Override
     public void buildWindows() {
-
+        car.setWindows("Frontwindowswithone-touchontwowindows");
     }
 
     @Override
