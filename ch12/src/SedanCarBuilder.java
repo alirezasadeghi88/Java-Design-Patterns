@@ -3,7 +3,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildBodyStyle() {
-
+        car.setBodyStyle("Externaldimensions:overalllength(inches):202.9,");
     }
 
     @Override
