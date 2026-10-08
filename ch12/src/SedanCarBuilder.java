@@ -18,7 +18,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildBreaks() {
-
+        car.setBreaks("Four-wheeldiscbrakes:twoventilated.Electronicbrake distribution");
     }
 
     @Override
