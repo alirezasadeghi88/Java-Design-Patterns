@@ -18,7 +18,7 @@ public class SportsCarBuilder implements CarBuilder {
 
     @Override
     public void buildBreaks() {
-
+        car.setBreaks("Four-wheeldiscbrakes:twoventilated.Electronicbrake distribution.StabiliTrakstabilitycontrol");
     }
 
     @Override
