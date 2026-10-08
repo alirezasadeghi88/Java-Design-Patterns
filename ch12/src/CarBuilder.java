@@ -6,4 +6,5 @@ public interface CarBuilder {
     public void buildSeats();
     public void buildWindows();
     public void buildFuelType();
+    public Car getCar();
 }
