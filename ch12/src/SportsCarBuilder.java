@@ -13,7 +13,7 @@ public class SportsCarBuilder implements CarBuilder {
 
     @Override
     public void buildEngine() {
-
+        car.setEngine("3.6LV6DOHCandvariablevalvetiming");
     }
 
     @Override
