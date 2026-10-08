@@ -8,7 +8,7 @@ public class SportsCarBuilder implements CarBuilder {
 
     @Override
     public void buildPower() {
-
+        car.setPower("323hp @ 6,800rpm;278ftlboftorque@4,800rpm");
     }
 
     @Override
