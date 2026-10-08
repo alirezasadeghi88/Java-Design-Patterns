@@ -8,7 +8,7 @@ public class SedanCarBuilder implements CarBuilder {
 
     @Override
     public void buildPower() {
-
+        car.setPower("285hp @ 6,500rpm;253ftlboftorque@4,000rpm");
     }
 
     @Override
