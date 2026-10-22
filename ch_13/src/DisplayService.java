@@ -4,4 +4,8 @@ public class DisplayService {
         String msg=parser.parse();
         System.out.println(msg);
     }
+
+    protected XMLParser getParser() {
+        return null;
+    }
 }
